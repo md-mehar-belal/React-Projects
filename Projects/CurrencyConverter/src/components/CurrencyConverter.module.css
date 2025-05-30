@@ -1,0 +1,48 @@
+/* CurrencyConverter.module.css */
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+}
+
+.amount, .dropdown, .msg {
+  margin-bottom: 1rem;
+}
+
+.selectContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.from, .to {
+  margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+  padding: 0.5rem 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.swapButton {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}

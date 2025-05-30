@@ -1,0 +1,13 @@
+.kg-item{
+  background-color: greenyellow;
+  margin-top: 2px;
+}
+
+
+.item-text{
+  font-weight: 500;
+}
+
+.button{
+  float: right;
+}
